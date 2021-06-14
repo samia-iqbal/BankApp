@@ -11,17 +11,22 @@ namespace AccountNumber.Controllers
     [Route("[controller]")]
     public class AccountNumberController : ControllerBase
     {
-        private static readonly int[] Numbers = new[]
+        private static readonly string[] AccountNumber = new[]
         {
-            1,2,3,4,5,6,7,8,9,0
+            "123456", "176987", "134765", "165892"
         };
-
+        private static readonly string[] sortCode = new[]
+       {
+            "12-12-10", "11-10-12", "19-90-09", "12-09-09"
+        };
         [HttpGet]
         public ActionResult<string> Get()
         {
-            var rnd = new Random();
-            var returnIndex = rnd.Next(0, 9);
-            return Numbers[returnIndex].ToString();
+            Random rnd = new Random();
+            int returnIndex = rnd.Next(0, 4);
+            return $"Account Number: {AccountNumber[returnIndex]}, Sort Code: {sortCode[returnIndex]}";
         }
+
+
     }
 }

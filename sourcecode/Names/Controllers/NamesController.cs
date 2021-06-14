@@ -11,17 +11,26 @@ namespace Names.Controllers
     [Route("[controller]")]
     public class NamesController : ControllerBase
     {
-        private static readonly char[] Letters = new[]
+        private static readonly string[ ] Name = new[ ]
         {
-            'A','B', 'C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z'
+           "samia IQBAL", "farzana AKHTER ", "Tehmina AHMED", "ciarra BALSOMO", "jordan BENT", "nsama CHIBULU", "darren DOYLE", "victor DUNIRA", "yasmin EL-HENDI", "edwin EMERY", "wamdah HASSAN", "keneil JORDAN"
         };
+
+       // private static readonly string[] Ref = new[]
+       //{
+       //    "230RED", "230REF", "765GTF", "987JNF", "987GHH"
+       // };
 
         [HttpGet]
         public ActionResult<string> Get()
         {
-            var rnd = new Random();
-            var returnIndex = rnd.Next(0, 25);
-            return Letters[returnIndex].ToString();
+            Random rand = new Random();
+            int returnIndex = rand.Next(0, 11);
+            return Name[returnIndex].ToString();  
+
         }
+
+
+
     }
 }

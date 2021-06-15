@@ -13,20 +13,17 @@ namespace Names.Controllers
     {
         private static readonly string[ ] Name = new[ ]
         {
-           "samia", "amina" , "tehmina" , "dara"
+           "samia", "amina" , "zahid" , "rehaan" , "zain"
         };
 
-       // private static readonly string[] Ref = new[]
-       //{
-       //    "230RED", "230REF", "765GTF", "987JNF", "987GHH"
-       // };
+       
 
         [HttpGet]
         public ActionResult<string> Get()
         {
-            Random rand = new Random();
-            int returnIndex = rand.Next(0, 3);
-            return Name[returnIndex].ToString();  
+            Random rand = new ();
+            int returnNamesController = rand.Next(0, 4);
+            return Name[returnNamesController].ToString();  
 
         }
 

@@ -13,7 +13,7 @@ namespace AccountNumber.Controllers
     {
         private static readonly string[] AccountNumber = new[]
         {
-            "1" , "2"
+            "176583" , "298654", "387697", "490866" , "587678"
         };
        // private static readonly string[] sortCode = new[]
        //{
@@ -22,10 +22,10 @@ namespace AccountNumber.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            Random rnd = new Random();
-            int returnIndex = rnd.Next(0, 1);
+            Random randomGen = new ();
+            int returnAccountNumController = randomGen.Next(0, 4);
             //return $"Account Number: {AccountNumber[returnIndex]}, Sort Code: {sortCode[returnIndex]}";
-            return AccountNumber[returnIndex].ToString();
+            return AccountNumber[returnAccountNumController].ToString();
 
         }
 

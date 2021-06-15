@@ -13,18 +13,20 @@ namespace AccountNumber.Controllers
     {
         private static readonly string[] AccountNumber = new[]
         {
-            "123456", "176987", "134765", "165892"
+            "1" , "2"
         };
-        private static readonly string[] sortCode = new[]
-       {
-            "12-12-10", "11-10-12", "19-90-09", "12-09-09"
-        };
+       // private static readonly string[] sortCode = new[]
+       //{
+       //     "12-12-10", "11-10-12", "19-90-09", "12-09-09"
+       // };
         [HttpGet]
         public ActionResult<string> Get()
         {
             Random rnd = new Random();
-            int returnIndex = rnd.Next(0, 4);
-            return $"Account Number: {AccountNumber[returnIndex]}, Sort Code: {sortCode[returnIndex]}";
+            int returnIndex = rnd.Next(0, 1);
+            //return $"Account Number: {AccountNumber[returnIndex]}, Sort Code: {sortCode[returnIndex]}";
+            return AccountNumber[returnIndex].ToString();
+
         }
 
 

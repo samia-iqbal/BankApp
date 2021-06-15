@@ -13,7 +13,7 @@ namespace Names.Controllers
     {
         private static readonly string[ ] Name = new[ ]
         {
-           "samia IQBAL", "farzana AKHTER ", "Tehmina AHMED", "ciarra BALSOMO", "jordan BENT", "nsama CHIBULU", "darren DOYLE", "victor DUNIRA", "yasmin EL-HENDI", "edwin EMERY", "wamdah HASSAN", "keneil JORDAN"
+           "samia", "amina" , "tehmina" , "dara"
         };
 
        // private static readonly string[] Ref = new[]
@@ -25,7 +25,7 @@ namespace Names.Controllers
         public ActionResult<string> Get()
         {
             Random rand = new Random();
-            int returnIndex = rand.Next(0, 11);
+            int returnIndex = rand.Next(0, 3);
             return Name[returnIndex].ToString();  
 
         }

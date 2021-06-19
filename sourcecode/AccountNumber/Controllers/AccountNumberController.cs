@@ -15,10 +15,7 @@ namespace AccountNumber.Controllers
         {
             "176583" , "298654", "387697", "490866" , "587678"
         };
-       // private static readonly string[] sortCode = new[]
-       //{
-       //     "12-12-10", "11-10-12", "19-90-09", "12-09-09"
-       // };
+      
         [HttpGet]
         public ActionResult<string> Get()
         {

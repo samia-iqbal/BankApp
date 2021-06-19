@@ -43,7 +43,7 @@ namespace Merge.Controllers
             else if (serviceTwoResponseCall == "amina" && serviceOneResponseCall == "176583")
             {
                 var Prize = "£50";
-                var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
+                var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to   {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "zahid" && serviceOneResponseCall == "176583")
@@ -66,97 +66,97 @@ namespace Merge.Controllers
             }
             else if (serviceTwoResponseCall == "samia" && serviceOneResponseCall == "298654")
             {
-                var Prize = "£100";
+                var Prize = "Silver Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "amina" && serviceOneResponseCall == "298654")
             {
-                var Prize = "£100";
+                var Prize = "Silver Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "zahid" && serviceOneResponseCall == "298654")
             {
-                var Prize = "£100";
+                var Prize = "Silver Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "rehaan" && serviceOneResponseCall == "298654")
             {
-                var Prize = "£100";
+                var Prize = "Silver Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "zain" && serviceOneResponseCall == "298654")
             {
-                var Prize = "£100";
+                var Prize = "Silver Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "samia" && serviceOneResponseCall == "387697")
             {
-                var Prize = "£150";
+                var Prize = "£200";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "amina" && serviceOneResponseCall == "387697")
             {
-                var Prize = "£150";
+                var Prize = "£200";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "zahid" && serviceOneResponseCall == "387697")
             {
-                var Prize = "£150";
+                var Prize = "£200";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "zain" && serviceOneResponseCall == "387697")
             {
-                var Prize = "£150";
+                var Prize = "£200";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "rehaan" && serviceOneResponseCall == "387697")
             {
-                var Prize = "£150";
+                var Prize = "£200";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "rehaan" && serviceOneResponseCall == "490866")
             {
-                var Prize = "£200";
+                var Prize = "Gold Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "samia" && serviceOneResponseCall == "490866")
             {
-                var Prize = "£200";
+                var Prize = "Gold Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "amina" && serviceOneResponseCall == "490866")
             {
-                var Prize = "£200";
+                var Prize = "Gold Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "zahid" && serviceOneResponseCall == "490866")
             {
-                var Prize = "£200";
+                var Prize = "Gold Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "zain" && serviceOneResponseCall == "490866")
             {
-                var Prize = "£200";
+                var Prize = "Gold Account";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }
             else if (serviceTwoResponseCall == "zain" && serviceOneResponseCall == "587678")
             {
-                var Prize = "£200";
+                var Prize = "£500";
                 var mergedServiceResponse = $"{serviceTwoResponseCall}  is assigned to    {serviceOneResponseCall} Account Number and won a prize of {Prize} ";
                 return Ok(mergedServiceResponse);
             }

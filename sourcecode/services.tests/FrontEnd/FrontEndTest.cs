@@ -1,5 +1,8 @@
-﻿using FrontEnd.Controllers;
+﻿using FrontEnd;
+using FrontEnd.Controllers;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using Moq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,18 +14,23 @@ namespace services.tests.FrontEnd
 {
     public class FrontEndTest
     {
-      [Fact]
-        public void GetTest()
+     
+        private AppSettings appSettings = new AppSettings()
         {
-            //arrange
-            HomeController frontEndHomeController = new HomeController();
+            mergedServiceURL = "https://samia-mergecontroller.azurewebsites.net"
 
-            //act 
-            var frontEndResult = frontEndHomeController.Index();
-            //assert
-            Assert.NotNull(frontEndResult);
-            Assert.IsType<ActionResult<string>>(frontEndResult);
+        };
+        [Fact]
+        public async void GetTest()
+        {
+            var options = new Mock<IOptions<AppSettings>>();
+            options.Setup(x => x.Value).Returns(appSettings);
 
+            HomeController mergeController = new HomeController(options.Object);
+            var mergeContollerResult = await mergeController.Index();
+
+            Assert.NotNull(mergeContollerResult);
+            //Assert.IsType<OkObjectResult>(mergeContollerResult);
         }
 
     }

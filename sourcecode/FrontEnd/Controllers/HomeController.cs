@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using FrontEnd.Models;
 using Microsoft.Extensions.Configuration;
 using System.Net.Http;
+using Microsoft.Extensions.Options;
 
 namespace FrontEnd.Controllers
 {
@@ -21,10 +22,21 @@ namespace FrontEnd.Controllers
         //    _logger = logger;
         //    Configuration = configuration;
         //}
+        private AppSettings Configuration;
+        public HomeController(IOptions<AppSettings> settings)
+        {
+            Configuration = settings.Value;
+        }
+
+
 
         public async Task<IActionResult> Index()
+
         {
-            var mergedService = "https://localhost:44381/merge";
+            //var mergedService = "https://localhost:44381/merge";
+            var mergedService = $"{Configuration.mergedServiceURL}/merge";
+            
+
             var serviceThreeResponseCall = await new HttpClient().GetStringAsync(mergedService);
             ViewBag.responseCall = serviceThreeResponseCall;
             return View();

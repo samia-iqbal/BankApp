@@ -26,11 +26,11 @@ namespace services.tests.FrontEnd
             var options = new Mock<IOptions<AppSettings>>();
             options.Setup(x => x.Value).Returns(appSettings);
 
-            HomeController mergeController = new HomeController(options.Object);
-            var mergeContollerResult = await mergeController.Index();
+            HomeController homeController = new HomeController(options.Object);
+            var homeContollerResult = await homeController.Index();
 
-            Assert.NotNull(mergeContollerResult);
-            //Assert.IsType<OkObjectResult>(mergeContollerResult);
+            Assert.NotNull(homeContollerResult);
+            Assert.IsType<OkObjectResult>(homeContollerResult);
         }
 
     }

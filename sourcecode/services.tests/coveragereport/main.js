@@ -225,22 +225,18 @@ var assemblies = [
     "name": "AccountNumber",
     "classes": [
       { "name": "AccountNumber.Controllers.AccountNumberController", "rp": "AccountNumber_AccountNumberController.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 31, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "AccountNumber.Program", "rp": "AccountNumber_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "AccountNumber.Startup", "rp": "AccountNumber_Startup.html", "cl": 0, "ucl": 28, "cal": 28, "tl": 60, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "FrontEnd",
     "classes": [
-      { "name": "FrontEnd.Controllers.HomeController", "rp": "FrontEnd_HomeController.html", "cl": 3, "ucl": 3, "cal": 6, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
-      { "name": "FrontEnd.Models.ErrorViewModel", "rp": "FrontEnd_ErrorViewModel.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 11, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "FrontEnd.Program", "rp": "FrontEnd_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "FrontEnd.Startup", "rp": "FrontEnd_Startup.html", "cl": 0, "ucl": 29, "cal": 29, "tl": 58, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "FrontEnd.AppSettings", "rp": "FrontEnd_AppSettings.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 12, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "FrontEnd.Controllers.HomeController", "rp": "FrontEnd_HomeController.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 45, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "FrontEnd.Views",
     "classes": [
       { "name": "AspNetCore.Views__ViewStart", "rp": "FrontEnd.Views_Views__ViewStart.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 3, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "AspNetCore.Views_Home_Index", "rp": "FrontEnd.Views_Views_Home_Index.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 84, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 4, "lch": [], "bch": [], "hc": [] },
+      { "name": "AspNetCore.Views_Home_Index", "rp": "FrontEnd.Views_Views_Home_Index.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 85, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 4, "lch": [], "bch": [], "hc": [] },
       { "name": "AspNetCore.Views_Home_Privacy", "rp": "FrontEnd.Views_Views_Home_Privacy.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 6, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "AspNetCore.Views_Shared__Layout", "rp": "FrontEnd.Views_Views_Shared__Layout.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 48, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 18, "lch": [], "bch": [], "hc": [] },
       { "name": "AspNetCore.Views_Shared_Error", "rp": "FrontEnd.Views_Views_Shared_Error.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 25, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
@@ -249,17 +245,12 @@ var assemblies = [
     "name": "Merge",
     "classes": [
       { "name": "Merge.AppSettings", "rp": "Merge_AppSettings.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 13, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Merge.Controllers.MergeController", "rp": "Merge_MergeController.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 49, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Merge.Program", "rp": "Merge_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Merge.Startup", "rp": "Merge_Startup.html", "cl": 0, "ucl": 33, "cal": 33, "tl": 66, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "Merge.Controllers.MergeController", "rp": "Merge_MergeController.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 47, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "Names",
     "classes": [
       { "name": "Names.Controllers.NamesController", "rp": "Names_NamesController.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Names.Program", "rp": "Names_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Names.Startup", "rp": "Names_Startup.html", "cl": 0, "ucl": 28, "cal": 28, "tl": 59, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
-      { "name": "Names.WeatherForecast", "rp": "Names_WeatherForecast.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 15, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 

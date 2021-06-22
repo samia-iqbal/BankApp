@@ -7,6 +7,8 @@ terraform {
     }    
 }
 
+ 
+
 provider "azurerm" {
     features {}
 }
@@ -29,6 +31,8 @@ variable "services" {
   }
 }
 
+ 
+
 resource "azurerm_resource_group" "rg" {
     name     = "samiaiqbal"
     location = "uksouth"
@@ -38,7 +42,7 @@ resource "azurerm_app_service_plan" "app-service-plan" {
   resource_group_name = azurerm_resource_group.rg.name
   location = azurerm_resource_group.rg.location
   kind = "Windows"
-  reserved = true
+  reserved = false
   sku {
     tier = "Basic"
     size = "B1"
@@ -46,9 +50,30 @@ resource "azurerm_app_service_plan" "app-service-plan" {
 }
 resource "azurerm_app_service" "webapp" {
   
-    for_each = var.services
+   for_each = var.services
     name = each.value.name
     resource_group_name = azurerm_resource_group.rg.name
     location = azurerm_resource_group.rg.location
     app_service_plan_id = azurerm_app_service_plan.app-service-plan.id
+
+ 
+
+    site_config{
+    dotnet_framework_version = "v5.0"
+
+ 
+
+
+}
+
+ 
+
+app_settings ={
+"accountNumberServiceURL" : "https://samia-accountnumber.azurewebsites.net"
+"nameServiceURL" : "https://samia-namescontroller.azurewebsites.net"
+"mergedServiceURL" : "http://samia-mergecontroller.azurewebsites.net"
+
+ 
+
+}
 }

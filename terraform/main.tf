@@ -69,9 +69,9 @@ resource "azurerm_app_service" "webapp" {
  
 
 app_settings ={
-"accountNumberServiceURL" : "https://samia-accountnumber.azurewebsites.net"
-"nameServiceURL" : "https://samia-namescontroller.azurewebsites.net"
-"mergedServiceURL" : "http://samia-mergecontroller.azurewebsites.net"
+"AppSettings__accountNumberServiceURL" : "https://samia-accountnumber.azurewebsites.net"
+"AppSettings__nameServiceURL" : "https://samia-namescontroller.azurewebsites.net"
+"AppSettings__mergedServiceURL" : "http://samia-mergecontroller.azurewebsites.net"
 
  
 

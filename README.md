@@ -128,7 +128,7 @@ The ERD diagram belows how the tables will interact with one another on the data
 ### Front End of the App
 ____________________________________________________________________
 
-Below is a demo of how my app looks before I make the change to the BankApp int he frontEnd service. I will show you this in my live demo when I do my presentation of how the background colour changes, showing that the automated workflow does work. 
+Below is a demo of how my app looks before I make the change to the BankApp in the frontEnd service. I will create a new branch and merge it with the master branch, which will perform continuous integration. I will show you this in my live demo when I do my presentation of how the background colour changes, showing that the automated workflow does work. 
 
 ![green](greenImplen.PNG)
 

@@ -204,8 +204,10 @@ The weaknesses of this project were that:
 Further improvements:
 * Create a prototype for the BankApp
 * Deploy the app through Azure pipelines DevOps
+* Product one YAML file 
 * Implement the should have, could have and wont have requirements of this project in the future 
 * Use Angular for the front end to integrate it with ASP.NET
+
 
 ### Authors
 _________________________________

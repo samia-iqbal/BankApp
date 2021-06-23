@@ -154,7 +154,8 @@ _________________________________________________________________________
 ### Risk Assessement 
 ____________________________________________________________________________
 
-
+Below is the risk assessment table which shows the potential risks that did take place when creating the BankApp. 
+![risk](risk.PNG)
 
 
 ### Revisits - Updated Version of diagrams after the implementation 

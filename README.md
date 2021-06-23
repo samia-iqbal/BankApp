@@ -70,7 +70,7 @@ The aims and objectives of this projects are as the following:
 _______________________________________________________
 For my BankApp project, I used an Asana board to create user stories (which explains the existence of each functonality and what benefit will it bring to us) and tasks which will make it easier for me to follow the project specifications. Below is my Kanban Board that shows the tasks I have to do, the tasks I am doing currently, testing and lastly the tasks I have completed successfully. I have also added a tool section in my Kanban board to show which tools I have used in this project. User stories have also been implemented and have been labelled. To view my trello board, please click on this link https://app.asana.com/share/avanade/bankapp/9006878344988/e7c9f6fc85811394dccd83c613866273
 
-![Asana](asana.PNG)
+![Asana](as.PNG)
 
 
 
@@ -168,7 +168,7 @@ Below is an updated version of my CI/CD Pipeline.
   
 Below is an updated version of my Kanban board. I have completed all of the required tasks successfully. However, was unable to create a prototype for the CookBookApp as I ran out of time. 
 
-![updatekanban](updateKanban.PNG)
+![Asana](asana.PNG)
 
 
 

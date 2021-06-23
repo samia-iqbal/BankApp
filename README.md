@@ -180,6 +180,9 @@ I was unable to implement the database to the BankApp, therefore I do not have a
 Below is an updated version of my Service Architecture Diagram. 
 ![updatearchitect](updateArchitect.png)
   
+Below is an updated version of my CI/CD Pipeline. 
+![updatepipeline](updatePipeline.png)
+  
 Below is an updated version of my Kanban board. I have completed all of the required tasks successfully. However, was unable to create a prototype for the CookBookApp as I ran out of time. 
 
 ![updatekanban](updateKanban.PNG)

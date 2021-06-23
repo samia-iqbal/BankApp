@@ -189,7 +189,7 @@ The strengths of this project were that:
 * I was able to use terraform successfully and used it to deploy the Azure App services, as well as configuring it. 
 * I was able to deploy my app through the Azure App Service and GitHub Actions through publishing the bankApp on visual studio, allowing me to perform continous integration as shown below on the screenshot:
 
-![deploy](deploy.PNG)
+![build](build.PNG)
 
 
 * I was able to re-create all of my diagrams and revisit them to compare what I had before the implementation and after the implementation, allowing me to suggest future work that may be required for the app by using the MoSCoW technique. 

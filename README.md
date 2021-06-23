@@ -34,7 +34,7 @@ The aims and objectives of this projects are as the following:
     <tr>
       <td><ul><li>Create a working BankApp which consists  of 4 services</li></ul></td>
       <td align="left">
-      <ul><li>Will be using programming languages such as C#, HTML, CSS and web API to connect the 4 services.</li>
+      <ul><li>Will be using programming languages such as C#, HTML, CSS and web API to connect the 4 services, and for the back end will be using AzureMySQL to save the history of the prizes that were won by different users</li>
       </td>
     </tr>
       <td>
@@ -43,18 +43,19 @@ The aims and objectives of this projects are as the following:
         </ul>
       </td>
       <td align="left"><ul>
-          <li>Carry out unit testing and automated testing to validate the application</li>
-           <li>Provide consistent reports and evidence using a TDD approach</li>
+          <li>Carry out xUnit testing and automated testing to validate the application</li>
+           <li>Provide a generated report for testing and show the test coverage</li>
         </ul></td>
     </tr>
      <tr>
       <td>
         <ul>
-          <li>Integrate the code for the BankApp</li>
+          <li>Deployment andIntegrate the code for the BankApp</li>
         </ul>
       </td>
       <td align="left"><ul>
-          <li>Contionous integration of the code into a VCS (Version Control System) using the Feature-Branch model</li>
+         <li>Use terraform to deploy Azure App Services and databses</li>
+          <li>Contionous integration of the code into a VCS (Version Control System) using the Feature-Branch model, make use of different branches and merge them, showing a change in one branch and merging it with the master and redeploy to demonstrate that the work flow is working successfully</li>
            <li>Deploy the BankApp to a cloud-based virtual machine through a CI server through GitHub Actions and Azure App Services</li>
         </ul></td>
     </tr>

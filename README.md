@@ -151,6 +151,9 @@ xUnit tests were used to run the tests for the BankApp. xUnit test is a unit tes
 ### Terraform
 _________________________________________________________________________
 
+I used Terraform to build and deploy the 4 Azure App services. I used a foreach loop which allowed me to deploy all 4 app services in one go as shown below:
+![terra](terra.PNG)
+
 ### Risk Assessement 
 ____________________________________________________________________________
 

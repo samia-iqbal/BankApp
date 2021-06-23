@@ -163,9 +163,7 @@ xUnit tests were used to run the tests for the BankApp. xUnit test is a unit tes
 ### Risk Assessement 
 ____________________________________________________________________________
 
-![testing](risk1.PNG)
-![testing](risk2.PNG)
-![testing](risk3.PNG)
+
 
 
 ### Revisits - Updated Version of diagrams after the implementation 

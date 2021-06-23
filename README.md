@@ -8,7 +8,7 @@ A page on the web service App will be loaded and will generate a prize when both
 
 ### WorkFlow-User Journey 
 _____________________________________________
-![workflow](workflow2.png)
+![workflow](workflow1.png)
 
 
 

@@ -59,11 +59,11 @@ The aims and objectives of this projects are as the following:
      <tr>
       <td>
         <ul>
-          <li>Deployment andIntegrate the code for the BankApp</li>
+          <li>Deployment and Integrate the code for the BankApp</li>
         </ul>
       </td>
       <td align="left"><ul>
-         <li>Use terraform to deploy Azure App Services and databses</li>
+         <li>Use terraform to deploy Azure App Services and databases</li>
           <li>Contionous integration of the code into a VCS (Version Control System) using the Feature-Branch model, make use of different branches and merge them, showing a change in one branch and merging it with the master and redeploy to demonstrate that the work flow is working successfully</li>
            <li>Deploy the BankApp to a cloud-based virtual machine through a CI server through GitHub Actions and Azure App Services</li>
         </ul></td>

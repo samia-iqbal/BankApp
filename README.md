@@ -11,15 +11,6 @@ A page on the web service App will be loaded and will generate a prize when both
 
 ![userstory](userstory.PNG)
 
-### WorkFlow-User Journey 
-_____________________________________________
-
-The workflow below shows how the user will be interacting with the system.
-
-![workflow](workflow1.png)
-
-
-
 ### Aim and Objectives
 _____________________________________________
 The aims and objectives of this projects are as the following:
@@ -102,6 +93,13 @@ The table below shows the requirements of the project using the MoSCoW technique
     </tr>
    
 </table>
+  
+ ### WorkFlow-User Journey 
+_____________________________________________
+
+The workflow below shows how the user will be interacting with the system.
+
+![workflow](workflow1.png)
 
 ### Service Architect diagram 
 _________________________________________________________________

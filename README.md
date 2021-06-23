@@ -144,7 +144,7 @@ Below is a demo of my app after the implementation change had been made.
 ### Testing Report
 _________________________________________________________________________
 
-xUnit tests were used to run the tests for the BankApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The reason why I used xUnit testing is to compile the code and to detect problems during the early phase of developing the app before actually deploying the app. For the BankApp, I have tested all of my controllers and actions as shown on the screenshot below. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. In all of my controllers, I have managed to get 100% in all controllers successfully and overall attained 75.4% inline coverage as shown below. 
+xUnit tests were used to run the tests for the BankApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The reason why I used xUnit testing is to compile the code and to detect problems during the early phase of developing the app before actually deploying the app. For the BankApp, I have tested all of my controllers and actions as shown on the screenshot below. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. In all of my controllers, I have managed to get 100% in all controllers successfully and overall attained 75.4% line coverage as shown below. 
 
 ![testing](ReportGen.PNG)
   

@@ -98,7 +98,7 @@ The table below shows the requirements of the project using the MoSCoW technique
       <td align= "left">The user must be able to see an account number and a name randomly generated together and show what prize they won, according to the starting number of the account number</td>
        <td align= "left">The user can view the history of the account numbers, names and prizes that the users won</td>
       <td align= "left">Input validation - For example, one user can win only one prize</td>
-      <td align= "left">The admin can login and manage the users and the account numbers they were assigned to</td>
+      <td align= "left">The admin can login and manage the usernames and the account numbers they were assigned to</td>
     </tr>
    
 </table>

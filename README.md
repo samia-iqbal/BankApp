@@ -4,10 +4,10 @@ ____________________________________________
 
 A page on the web service App will be loaded and will generate a prize when both the Account Number and Name comes together. The prize that the user wins and the account number that they were assigned should be saved into the database which will act as an history page on the front end service. Below is a table which demonstrates the user journey, showing when can a user win a prize and what type of prize do they win, this will be dependant on the first number of the account number. I will be working with 4 services and will connect them with an API. Service one is the front end of the app which will be created using ASP.NET MVC. Service two is the Account numbers service which will generate the account number randomly. Service three is the Names service which will generate the names randomly. Lastly, service four is the merge service which will combine both service two and three together and based upon that, a prize will be generated as shown below.
 
-* Service one is account number service 
-* Service two is name service 
-* Service three is merge service 
-* Service four is the front end service 
+* Service one is Front End service 
+* Service two is Account Number service 
+* Service three is Names service 
+* Service four is the Merge service 
 
 ![userstory](userstory.PNG)
 

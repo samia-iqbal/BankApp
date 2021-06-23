@@ -13,6 +13,9 @@ A page on the web service App will be loaded and will generate a prize when both
 
 ### WorkFlow-User Journey 
 _____________________________________________
+
+The workflow below shows how the user will be interacting with the system.
+
 ![workflow](workflow1.png)
 
 
@@ -73,7 +76,7 @@ The aims and objectives of this projects are as the following:
 
 ### Project Tracking tool
 _______________________________________________________
-For my BankApp project, I used an Asana board to create user stories, a doing section, done section, testing section, design section, coding section and lastly deployment section. This allowed me to carry out the tasks easily for this project. The user stories were demonstrated , please click on this link https://app.asana.com/share/avanade/bankapp/9006878344988/e7c9f6fc85811394dccd83c613866273
+For my BankApp project, I used an Asana board to create user stories, a doing section, done section, testing section, design section, coding section and lastly deployment section. This allowed me to carry out the tasks easily for this project. The user stories were also demonstrated on the Asana Board , please click on this link https://app.asana.com/share/avanade/bankapp/9006878344988/e7c9f6fc85811394dccd83c613866273
 
 ![Asana](as.PNG)
 
@@ -92,7 +95,7 @@ The table below shows the requirements of the project using the MoSCoW technique
       <th align="centre">Wont Have</th> 
     </tr>
     <tr>
-      <td align= "left">The user must be able to see the account number and name that was generated and what prize the user won</td>
+      <td align= "left">https://github.com/samia-iqbal/BankApp</td>
        <td align= "left">The user can view the history of the account numbers and prizes that the users won</td>
       <td align= "left">Input validation - For example, one user can win only one prize</td>
       <td align= "left">The admin can login and manage the users and the account numbers they were assigned to</td>
@@ -103,12 +106,15 @@ The table below shows the requirements of the project using the MoSCoW technique
 ### Service Architect diagram 
 _________________________________________________________________
 
+  The service Architect diagram illustrates how the services interact with each other. 
 
 ![architect](architect.png)
   
 
 ### CI/CD Pipeline
 ____________________________________________________________________
+ 
+ The CI/CD pipeline shows how the user builds the system and what happens at each stage.  For example, as you can see that through gitHub, an automated workflow is build which will allow the user to perform continous integration whenever they re-deploy the BankApp. 
   
 ![pipeline](pipeline.png)
   
@@ -116,6 +122,7 @@ ____________________________________________________________________
 ### Entity diagram 
 ________________________________________________________________________
 
+The ERD diagram belows how the tables will interact with one another on the database. There is a one to many relationship between the accountNumber table and Merge table, and there is also a one to many relationship between the Names table and the merge table. This demonstrates that the merge table can have many names and account numbers, which is the whole point of this table, to display the history of the account number and names that were generated, and what prize did they win. 
   
 
 ![ERD](ERD.png)
@@ -123,12 +130,13 @@ ________________________________________________________________________
 ### Front End of the App
 ____________________________________________________________________
 
-
+Below is a demo of how my app looks before I make the change to the BankApp. I will show you this in my live demo when I do my presentation of how the background colour changes, showing that the automated workflow does work. 
 
 ![green](greenImplen.PNG)
 
 
-
+Below is a demo of my app after the implementation change had been made. 
+  
 ![red](implen2.PNG)
 
 
@@ -136,9 +144,12 @@ ____________________________________________________________________
 ### Testing Report
 _________________________________________________________________________
 
-xUnit tests were used to run the tests for the BankApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The BankApp I have created runs on .NET framework and is a console MVC app. The reason why I used xUnit testing is to compile the code and to detect problems during the early phase of developing the app before actually deploying the app. For the BankApp, I have tested all of my controllers and actions as shown on the screenshot below. However, some of the actions returned null which resulted in some of my tests failing. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. I also created Moqs, interfaces and repositories to help me test the controllers of the BankApp.
+xUnit tests were used to run the tests for the BankApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The reason why I used xUnit testing is to compile the code and to detect problems during the early phase of developing the app before actually deploying the app. For the BankApp, I have tested all of my controllers and actions as shown on the screenshot below. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. In all of my controllers, I have managed to get 100% in all controllers successfully as shown below. 
 
 ![testing](ReportGen.PNG)
+  
+### Terraform
+_________________________________________________________________________
 
 ### Risk Assessement 
 ____________________________________________________________________________
@@ -149,16 +160,8 @@ ____________________________________________________________________________
 ### Revisits - Updated Version of diagrams after the implementation 
 _______________________________________________________________________________________________
 
-In this project. I was able to implement the must requirements which was stated in the project requirements section on this documentation previously. I was also able to implement other requirements too. 
-
-The following requirements that have been implemented in this project are:
-* The user must be able to view recipes 
-* The user must be able to add recipes 
-* The user must be able to edit recipes
-* The user must be able to delete recipes
-* The user must be able to add reviews 
-* The user must be able to view reviews
-
+In this project. I was able to implement the must requirements which was stated in the project requirements section on this documentation previously and that was to allow the user to see the account number and the name generated randomly, and what prize they won, according to the starting number of the account number. 
+  
 I was unable to implement the database to the BankApp, therefore I do not have an updated version of the ERD. However, I was able to implement the WorkFlow diagram inside my project successfully.
 
 Below is an updated version of my Service Architecture Diagram. 
@@ -167,7 +170,7 @@ Below is an updated version of my Service Architecture Diagram.
 Below is an updated version of my CI/CD Pipeline. 
 ![updatepipeline](updatePipeline.png)
   
-Below is an updated version of my Kanban board. I have completed all of the required tasks successfully. However, was unable to create a prototype for the CookBookApp as I ran out of time. 
+Below is an updated version of my Asana board. I have completed all of the required tasks successfully. However, was unable to create a prototype for the BankApp as I ran out of time. 
 
 ![Asana](asana.PNG)
 
@@ -178,36 +181,30 @@ Below is an updated version of my Kanban board. I have completed all of the requ
 _________________________________________________________________
 
 The strengths of this project were that:
-* I was able to use a Trello Kanban Board successfully.
-* I was able to complete the CRUD functionality successfully and was able to link the two tables on the database successfully. For example, I was able to retrieve the RecipeID in my Reviews table in the database and was able to add reviews and views for a certain recipe. 
-* I was able to use ASP.NET, HTML and CSS as my front end and back end. 
-* I was able to connect the workBench with AzureMySql and ASP.NET
-* I was able to test both of my recipes and reviews controller and generated a report for them to show the overall test coverage 
-* I was able to deploy my app through the Azure App Service and publishing the app on visual studio, allowing me to perform continous integration as shown below on the screenshot:
+* I was able to use a Asana Board successfully.
+* I was able to complete the must requirements of this project successfully. 
+* I was able to use API, service architecture, terraform, ASP.NET, C#, HTML and CSS. 
+* I was able to test all the controllers for all four services successfully and managed to generated a report coverage for testing, which showed that my app is trust worthy and ready to use as I got 100% in all tests. 
+* I was able to use terraform successfully and used it to deploy the Azure App services, as well as configuring it. 
+* I was able to deploy my app through the Azure App Service and GitHub Actions through publishing the bankApp on visual studio, allowing me to perform continous integration as shown below on the screenshot:
 
 ![deploy](deploy.PNG)
 
 
 * I was able to re-create all of my diagrams and revisit them to compare what I had before the implementation and after the implementation, allowing me to suggest future work that may be required for the app by using the MoSCoW technique. 
 * I was able to carry out the risk assessements and I also revisited the risks to see how I mitigated the risk 
-* I was able to push my CookBookApp code to the github successfully.
+* I was able to push my BankApp code to the github successfully.
 * I was able to use all of the tools that I learnt during the training and apply them to my project.
 
 The weaknesses of this project were that:
-* I was not able to deploy the app through the Azure pipelines as the build failed, therefore had to use an alternative way to deploy the CookBookApp. However, I was able to build the code and create a YAML file but was unable to deploy the app unsuccessfully as shown below:
-
-![dev](devop.PNG)
-
+* I was not able to use database to show the history of the prize won and account number and names that were generated randomly. 
 * I was not able to do alot of work on the front end of the side to make the app look prettier and more user friendly. 
 
 Further improvements:
-* Test the whole code and increase the code coverage report percentage 
-* Create a prototype for the CookBookApp
-* Work on making the app look more user friendly. For example, when the user adds recipe to the app, the description textarea should be bigger allowing them to add a detailed description without any hassle.
-* Deploy the app through Azure pipelines
+* Create a prototype for the BankApp
+* Deploy the app through Azure pipelines DevOps
 * Implement the should have, could have and wont have requirements of this project in the future 
-* Include validations. For example, if the user enters a text rather than a number in the number of serving part, then it should prompt a user with a message stating them to enter a valid number. Also, create validations for empty forms. For example, if the form is left empty and user clicks save, it wont submit or add to the database as all fields should be mandatory to be filled in. 
-* Use Angular for the front end to integrate it with ASP.NET.
+* Use Angular for the front end to integrate it with ASP.NET
 
 ### Authors
 _________________________________

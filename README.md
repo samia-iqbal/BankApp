@@ -131,14 +131,10 @@ ____________________________________________________________________
 
 ### Entity diagram 
 ________________________________________________________________________
-Below is the Chen's conceptual model for the CookBook App. The diagram consists of entity types which in this case are Recipes, Users and Reviews, it also consists of relationships which are manages and contains. The user will manage recipes which in further detail means that the user can add/delete/update/review recipes. For the following entity types, there are different types of attributes such as primary key, foreign key and other attributes. The attributes in yellow are the primary key and the attributes in pink are the foreign key, which essentially means that this attribute was inherited from another table. 
-![chen](ChenLogical.PNG)
 
-Below is the UML logical model for the CookBook App. The diagram explores the different types of tables that will be on the database and how these tables will be interacting with one and another. For example, the recipeID will be retrieved in the Reviews table. This is to allow the users to add or read a review of a certain recipe. 
+  
 
-The relationship between the Users and Recipes is one to many which means that one user can add many recipes and in other words it means that many recipes can be added by one User. The relationship between the Users and Reviews is again one to many as one user can add many reviews too. 
-
-![UML](umlERD.PNG)
+![ERD](ERD.png)
 
 ### Front End of the App
 ____________________________________________________________________
@@ -179,23 +175,11 @@ The following requirements that have been implemented in this project are:
 * The user must be able to add reviews 
 * The user must be able to view reviews
 
-Here is an updated version of my use case diagram below, which shows the requirements of this project that have been implemented. 
+I was unable to implement the database to the BankApp, therefore I do not have an updated version of the ERD. 
 
-![UPDATEerd](updateusecase.PNG)
-
-
-Here is an updated version of my ERD after the implementation. The ERD diagram below explores the zero to many and one to many relationships between recipes and reviews. The relationship between both recipes and reviews are as the following:
-* One recipe can have zero reviews 
-* One recipe can have many reviews 
-* Zero reviews may exist in one recipe
-* Many reviews may exist in many recipes 
-
-![UPDATEerd](updateERD.PNG)
-
-Here is an updated version of the Chen's conceptual ERD diagram:
-
-![updatechen](ChenLogicalcopy.png)
-
+Below is an updated version of my Service Architecture Diagram. 
+![updatearchitect](updateArchitect.png)
+  
 Below is an updated version of my Kanban board. I have completed all of the required tasks successfully. However, was unable to create a prototype for the CookBookApp as I ran out of time. 
 
 ![updatekanban](updateKanban.PNG)

@@ -72,7 +72,7 @@ For my BankApp project, I used an Asana board to create user stories (which expl
 
 ![Asana](asana.PNG)
 
-![Asana](trello2.PNG)
+
 
 
 ### Functional and Non-functional Requirements 
@@ -87,29 +87,12 @@ The table below shows the requirements of the project using the MoSCoW technique
       <th align="centre">Wont Have</th> 
     </tr>
     <tr>
-      <td align= "left">The user must be able to see the accoutn number that is generated</td>
-       <td align= "left">The user can view the history</td>
-      <td align= "left">The user can register</td>
-      <td align= "left">The admin can login</td>
+      <td align= "left">The user must be able to see the account number and name that was generated and what prize the user won</td>
+       <td align= "left">The user can view the history of the account numbers and prizes that the users won</td>
+      <td align= "left">Input validation - For example, one user can win only one prize</td>
+      <td align= "left">The admin can login and manage the users and the account numbers they were assigned to</td>
     </tr>
-    <tr>
-      <td align="left">The user must be able to add the recipes to the Cook Book App</td>
-       <td align= "left">The user can add reviews</td>
-  <td align= "left">The user can login</td>
-  <td align= "left">The admin can manage users E.g. delete, update users</td>
-    </tr>
-    <tr>
-      <td align="left">The user must be able to update the recipes to the Cook Book App</td>
-      <td align= "left">The user can update a review</td>
-      <td align= "left">The user can validate their username and password</td>
-       <td align= "left">The admin can track the users performance E.g datetime user logged in and out</td>
-    </tr>
-    <tr>
-      <td align="left">The user must be able to delete the recipes to the Cook Book App</td>
-      <td align="left">The user can delete a review</td>
-      <td align="left"></td>
-       <td align= "left">The admin can manage reviews.E.g delete reviews</td>
-    </tr>
+   
 </table>
 
 ### Service Architect diagram 

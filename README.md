@@ -6,6 +6,10 @@ A page on the web service App will be loaded and will generate a prize when both
 
 ![userstory](userstory.PNG)
 
+### WorkFlow-User Journey 
+_____________________________________________
+![workflow](workflow2.png)
+
 
 
 ### Aim and Objectives
@@ -103,10 +107,6 @@ ____________________________________________________________________
   
 ![pipeline](pipeline.png)
   
- ### WorkFlow Diagram
-____________________________________________________________________
-  
-![workflow](workFlow.PNG)
 
 ### Entity diagram 
 ________________________________________________________________________

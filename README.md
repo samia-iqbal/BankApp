@@ -175,7 +175,7 @@ The following requirements that have been implemented in this project are:
 * The user must be able to add reviews 
 * The user must be able to view reviews
 
-I was unable to implement the database to the BankApp, therefore I do not have an updated version of the ERD. 
+I was unable to implement the database to the BankApp, therefore I do not have an updated version of the ERD. However, I was able to implement the WorkFlow diagram inside my project successfully.
 
 Below is an updated version of my Service Architecture Diagram. 
 ![updatearchitect](updateArchitect.png)

@@ -37,17 +37,6 @@ The aims and objectives of this projects are as the following:
       <ul><li>Will be using programming languages such as C#, HTML, CSS and web API to connect the 4 services.</li>
       </td>
     </tr>
-    <tr>
-      <td>
-        <ul>
-          <li>create a working front end functionality  BankApp</li>
-        </ul>
-      </td>
-      <td align="left"><ul>
-          <li>Will be using ASP.NET, HTML and CSS to create the front end, allowing the users to interact with the BankApp</li>
-        </ul></td>
-    </tr>
-    <tr>
       <td>
         <ul>
           <li>Testing for the BankApp</li>

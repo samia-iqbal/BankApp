@@ -112,11 +112,22 @@ The table below shows the requirements of the project using the MoSCoW technique
     </tr>
 </table>
 
-### Use Case diagram 
+### Service Architect diagram 
 _________________________________________________________________
-Below is the the use case diagram which demonstrates how the user will be interacting with the system which in this case is the Cook Book App (Please note that for implementation, I will only be interacting with two database tables which are recipes and reviews).
 
-![UML](usecase2.png)
+
+![architect](architect.png)
+  
+
+### CI/CD Pipeline
+____________________________________________________________________
+  
+![pipeline](pipeline.png)
+  
+ ### WorkFlow Diagram
+____________________________________________________________________
+  
+![workflow](workFlow.PNG)
 
 ### Entity diagram 
 ________________________________________________________________________
@@ -132,41 +143,20 @@ The relationship between the Users and Recipes is one to many which means that o
 ### Front End of the App
 ____________________________________________________________________
 
-In this section, I will be demonstrating the front end of the CookBookApp, where the user will be directly interacting with the app.
 
-Below is the home page of the CookBookApp which will allow the user to navigate to the recipes page and explore different types of recipes.
 
-![homeapp](homeApp.PNG)
+![green](greenImplen.PNG)
 
-Below is the All Recipes page of the CookBookApp which will allow the user to explore different type of recipes.
 
-![allrecipes](allRecipes.PNG)
 
-Below is the Add Recipe page on the CookBook App which will allow the users to add a recipe, allowing them to help others with cooking. 
+![red](implen2.PNG)
 
-![addRecipe](addRecipe.PNG)
-
-Below are the details for one recipe
-
-![detail](detailRecipe.PNG)
-
-Below is the edit recipe page, where the user will be allowed to edit the recipe they have uploaded, incase they may have made any mistakes and want to make amendments. 
-
-![editRecipe](editRecipe.PNG)
-
-Below is the add review page, where a user can leave a review on any recipe they would like to. This will help others decide whether or not they should this recipe or not.
-
-![addReview](addReview.PNG)
-
-Below is the reviews for recipes, this will allow the user to view all reviews for a certain recipe. 
-
-![viewRecipe](viewReviews.PNG)
 
 
 ### Testing Report
 _________________________________________________________________________
 
-xUnit tests were used to run the tests for the CookBookApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The CookBookApp I have created runs on .NET framework and is a console MVC app. The reason why I used xUnit testing is to compile the code and to detect problems during the early phase of developing the app before actually deploying the app. For the CookBookApp, I have tested all of my controllers and actions as shown on the screenshot below. However, some of the actions returned null which resulted in some of my tests failing. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. I also created Moqs, interfaces and repositories to help me test the controllers of the CookBookApp. As you can see that the test coverage for the Recipes Controller is 76.4% for the Review Controller the test coverage is 71.7%. 
+xUnit tests were used to run the tests for the BankApp. xUnit test is a unit testing tool which is mainly designed for the .NET framework. The BankApp I have created runs on .NET framework and is a console MVC app. The reason why I used xUnit testing is to compile the code and to detect problems during the early phase of developing the app before actually deploying the app. For the BankApp, I have tested all of my controllers and actions as shown on the screenshot below. However, some of the actions returned null which resulted in some of my tests failing. I used a structure to write my code for testing which was to start off with arranging the test then performing the action and lastly asserting it. I also created Moqs, interfaces and repositories to help me test the controllers of the BankApp.
 
 ![testing](ReportGen.PNG)
 

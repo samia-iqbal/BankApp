@@ -68,11 +68,9 @@ The aims and objectives of this projects are as the following:
 
 ### Project Tracking tool
 _______________________________________________________
-For my BankApp project, I used an Asana board to create user stories (which explains the existence of each functonality and what benefit will it bring to us) and tasks which will make it easier for me to follow the project specifications. Below is my Kanban Board that shows the tasks I have to do, the tasks I am doing currently, testing and lastly the tasks I have completed successfully. I have also added a tool section in my Kanban board to show which tools I have used in this project. User stories have also been implemented and have been labelled. To view my trello board, please click on this link https://trello.com/b/oaleSto7/cookbookapp 
+For my BankApp project, I used an Asana board to create user stories (which explains the existence of each functonality and what benefit will it bring to us) and tasks which will make it easier for me to follow the project specifications. Below is my Asana Board that shows the tasks I have to do, the tasks I have completed and other sections such as coding, testing, design and deployment. User stories have also been implemented and have been labelled. To view my Asana board, please click on this link https://app.asana.com/share/avanade/bankapp/9006878344988/e7c9f6fc85811394dccd83c613866273 . 
 
 ![Asana](asana.PNG)
-
-![Asana](trello2.PNG)
 
 
 ### Functional and Non-functional Requirements 
@@ -87,45 +85,18 @@ The table below shows the requirements of the project using the MoSCoW technique
       <th align="centre">Wont Have</th> 
     </tr>
     <tr>
-      <td align= "left">The user must be able to see the accoutn number that is generated</td>
-       <td align= "left">The user can view the history</td>
-      <td align= "left">The user can register</td>
-      <td align= "left">The admin can login</td>
-    </tr>
-    <tr>
-      <td align="left">The user must be able to add the recipes to the Cook Book App</td>
-       <td align= "left">The user can add reviews</td>
-  <td align= "left">The user can login</td>
-  <td align= "left">The admin can manage users E.g. delete, update users</td>
-    </tr>
-    <tr>
-      <td align="left">The user must be able to update the recipes to the Cook Book App</td>
-      <td align= "left">The user can update a review</td>
-      <td align= "left">The user can validate their username and password</td>
-       <td align= "left">The admin can track the users performance E.g datetime user logged in and out</td>
-    </tr>
-    <tr>
-      <td align="left">The user must be able to delete the recipes to the Cook Book App</td>
-      <td align="left">The user can delete a review</td>
-      <td align="left"></td>
-       <td align= "left">The admin can manage reviews.E.g delete reviews</td>
+      <td align= "left">The user must be able to see the account number that is generated and show which prize was generated with it</td>
+       <td align= "left">The user can view the history of the account numbers and names that were generated and what prizes people won</td>
+      <td align= "left">Input validation. For example, one user wins only one prize</td>
+      <td align= "left">The admin can login and manage the history of users and account numbers that were generated for them</td>
     </tr>
 </table>
 
-### Use Case diagram 
-_________________________________________________________________
-Below is the the use case diagram which demonstrates how the user will be interacting with the system which in this case is the Cook Book App (Please note that for implementation, I will only be interacting with two database tables which are recipes and reviews).
-
-![UML](usecase2.png)
 
 ### Entity diagram 
 ________________________________________________________________________
-Below is the Chen's conceptual model for the CookBook App. The diagram consists of entity types which in this case are Recipes, Users and Reviews, it also consists of relationships which are manages and contains. The user will manage recipes which in further detail means that the user can add/delete/update/review recipes. For the following entity types, there are different types of attributes such as primary key, foreign key and other attributes. The attributes in yellow are the primary key and the attributes in pink are the foreign key, which essentially means that this attribute was inherited from another table. 
-![chen](ChenLogical.PNG)
 
-Below is the UML logical model for the CookBook App. The diagram explores the different types of tables that will be on the database and how these tables will be interacting with one and another. For example, the recipeID will be retrieved in the Reviews table. This is to allow the users to add or read a review of a certain recipe. 
-
-The relationship between the Users and Recipes is one to many which means that one user can add many recipes and in other words it means that many recipes can be added by one User. The relationship between the Users and Reviews is again one to many as one user can add many reviews too. 
+  
 
 ![UML](umlERD.PNG)
 
